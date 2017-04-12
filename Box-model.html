@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型图示</title>
+    <style type="text/css">
+        body{
+            margin:0;
+            padding: 0;
+            font-size:26px;
+            font-family: '宋体';
+            text-align:center;
+
+        }
+        .div1{
+            width:400px;
+            height:400px;
+            background:yellow;
+            margin:0 auto;
+            margin-top:100px;
+        }
+         .div2{
+            width:300px;
+            height:300px;
+            background:red;
+            margin:0 auto;
+            margin-top:25px;
+        }
+        .div3{
+            width:250px;
+            height:250px;
+             background:green;
+             margin:0 auto;
+           
+        }
+        .div4{
+            width:180px;
+            height:180px;
+            background:silver;
+            margin:0 auto;
+            line-height: 200px;
+            margin-top:15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>盒子模型图示</h2>
+    <div class="div1">marign-外边距
+        <div class="div2">border-边框
+            <div class="div3">padding-内边距
+                <div class="div4">元素内容</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
